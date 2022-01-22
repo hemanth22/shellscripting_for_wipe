@@ -1,0 +1,2 @@
+# shellscripting_for_wipe
+shellscripting_for_wipe_data
