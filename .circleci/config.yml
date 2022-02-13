@@ -11,3 +11,9 @@ jobs:
       - run:
           command: find . -type f -name '*.sh' | xargs shellcheck --external-sources
           name: Run Shellcheck command
+workflows:
+  my_workflow:
+    jobs:
+      - shellcheck/check:
+          dir: .
+          exclude: SC2148
