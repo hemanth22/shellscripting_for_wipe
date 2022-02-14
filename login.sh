@@ -3,7 +3,7 @@
 read -p "Password: " loginpasswd
 len=${#loginpasswd}
 
-if test $len -ge 8 ; then
+if test "$len" -ge 8 ; then
     echo "$loginpasswd" | grep -q [0-9]
     if test $? = 0 ; then
         echo "$loginpasswd" | grep -q [A-Z]
