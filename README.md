@@ -6,3 +6,4 @@ shellscripting_for_wipe_data
 
 
 This feature enable pull request.
+Dummy trigger
