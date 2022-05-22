@@ -26,5 +26,5 @@ if test "$len" -ge 8 ; then
         echo "Weak Password: missing numbers"
     fi
 else
-    echo "Weak Password: Password character length is less than 8 characters"
+    echo "Weak Password: Password character length is less than 10 characters"
 fi
